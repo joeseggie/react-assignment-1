@@ -1,0 +1,15 @@
+.UserOutput{
+    border: 1px solid #eee;
+    margin: auto;
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    vertical-align: middle;
+    box-shadow: 3px 3px #cccccc;
+}
+.UserOutput:hover{
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    box-shadow: 3px 3px #eee;
+}
