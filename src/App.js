@@ -22,7 +22,10 @@ const App = () => {
   
   return (
     <div className="App">
-      <UserInput changed={userInputChangedHandler} />
+      <UserInput
+        changed={userInputChangedHandler}
+        currentName={userInputState.userInput[0].text} />
+      <UserOutput text={userInputState.userInput[0].text} />
       <UserOutput text={userInputState.userInput[0].text} />
     </div>
   );

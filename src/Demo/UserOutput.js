@@ -5,6 +5,7 @@ const userOutput = (props) => {
     return (
         <div className='UserOutput'>
             <p>{props.text}</p>
+            <p>Random text</p>
         </div>
     );
 };
